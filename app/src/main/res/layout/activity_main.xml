@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="ziedkhmiri.custom_layout_3d.MainActivity">
+
+    <ziedkhmiri.custom_layout_3d.Layout3D
+        android:layout_height="350dp"
+        android:layout_width="350dp"
+        android:layout_marginTop="75dp"
+        >
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/firrari"
+            />
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/bmw"/>
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/fisker"
+            />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:background="@drawable/tesla"
+            />
+    </ziedkhmiri.custom_layout_3d.Layout3D>
+
+</RelativeLayout>
