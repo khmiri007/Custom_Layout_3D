@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:gravity="center"
     android:background="@drawable/background"
     tools:context="ziedkhmiri.custom_layout_3d.MainActivity">
 
@@ -17,24 +18,25 @@
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:background="@drawable/firrari"
-            />
+            android:contentDescription="@string/image" />
         <ImageView
             android:id="@+id/img1"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
-            android:background="@drawable/bmw"/>
+            android:background="@drawable/bmw"
+            android:contentDescription="@string/image" />
         <ImageView
             android:id="@+id/img2"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:background="@drawable/fisker"
-            />
+            android:contentDescription="@string/image" />
         <ImageView
             android:id="@+id/img3"
             android:layout_height="wrap_content"
             android:layout_width="wrap_content"
             android:background="@drawable/tesla"
-            />
+            android:contentDescription="@string/image" />
     </ziedkhmiri.custom_layout_3d.Layout3D>
 
 </RelativeLayout>
